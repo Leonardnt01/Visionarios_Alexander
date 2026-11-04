@@ -3,8 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "astro dev --host 127.0.0.1",
-    "build": "astro build",
+    "dev": "node init && astro dev --host 127.0.0.1",
+    "build": "node init && astro build",
     "preview": "astro preview --host 127.0.0.1"
   },
   "dependencies": {
